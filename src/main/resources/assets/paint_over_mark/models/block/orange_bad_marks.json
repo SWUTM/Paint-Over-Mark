@@ -1,0 +1,8 @@
+{
+  "parent": "paint_over_mark:custom/badmarks21",
+  "textures": {
+    "all": "paint_over_mark:blocks/badmarks21",
+    "particle": "paint_over_mark:blocks/badmarks21",
+    "0": "paint_over_mark:blocks/badmarks21"
+  }
+}

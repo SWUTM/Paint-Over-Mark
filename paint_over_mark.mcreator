@@ -1,0 +1,477 @@
+{
+  "mod_elements": [
+    {
+      "name": "WhiteBadMarks",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_bad_marks"
+    },
+    {
+      "name": "OrangeBadMarks",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_bad_marks"
+    },
+    {
+      "name": "GreenBadMarks",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_bad_marks"
+    },
+    {
+      "name": "RedBadMarks",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_bad_marks"
+    },
+    {
+      "name": "BlueBadMarks",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_bad_marks"
+    },
+    {
+      "name": "SprayCan",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spray_can"
+    },
+    {
+      "name": "Brush",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brush"
+    },
+    {
+      "name": "SCCraft",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sc_craft"
+    },
+    {
+      "name": "PaintOver",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paint_over"
+    },
+    {
+      "name": "BCraft21",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_craft_21"
+    },
+    {
+      "name": "WhiteBadMarksUpdateTick",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_bad_marks_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WhiteBadMarksOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_bad_marks_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PaintOver21",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paint_over_21"
+    },
+    {
+      "name": "BlueBadMarksOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_bad_marks_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BadMarksProcedure",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bad_marks_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WhiteBM",
+      "type": "structure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_bm"
+    },
+    {
+      "name": "OrangeBM",
+      "type": "structure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_bm"
+    },
+    {
+      "name": "GreenBM",
+      "type": "structure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_bm"
+    },
+    {
+      "name": "RedBM",
+      "type": "structure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_bm"
+    },
+    {
+      "name": "BlueBM21",
+      "type": "structure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_bm_21"
+    },
+    {
+      "name": "OrangeBadMarksUpdateTick",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_bad_marks_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GreenBadMarksUpdateTick",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_bad_marks_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RedBadMarksUpdateTick",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_bad_marks_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlueBadMarksUpdateTick",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_bad_marks_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Attention",
+      "type": "gui",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "attention"
+    },
+    {
+      "name": "Attention21",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "attention_21",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SCCraft21",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sc_craft_21"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "spray_can",
+      "files": [
+        "zvuk-pshikaniya-iz-ballonchika"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "brush",
+      "files": [
+        "novyi_proiekt"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "sirena21",
+      "files": [
+        "zvuk-sirenyi-vozdushnogo-naleta-avia-trevoga---tak-kotoraya-vam-nujna-samaya-nastoyaschaya-7408"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.paint_over_mark.white_bad_marks": "White Bad Marks",
+      "item.paint_over_mark.brush": "Brush",
+      "block.paint_over_mark.paint_over_21": "Paint Over",
+      "subtitles.brush": "",
+      "subtitles.spray_can": "",
+      "block.paint_over_mark.orange_bad_marks": "Orange Bad Marks",
+      "block.paint_over_mark.red_bad_marks": "Red Bad Marks",
+      "block.paint_over_mark.blue_bad_marks": "Blue Bad Marks",
+      "subtitles.sirena21": "",
+      "block.paint_over_mark.paint_over": "Paint Over",
+      "item.paint_over_mark.spray_can": "Spray Can",
+      "block.paint_over_mark.green_bad_marks": "Green Bad Marks"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "paint_over_mark",
+    "modName": "Paint Over Mark",
+    "version": "1.0.0",
+    "author": "kazmur, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.paintovermark",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

@@ -1,0 +1,44 @@
+{
+  "_fv": 24,
+  "_type": "structure",
+  "definition": {
+    "structure": "redbm",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 1000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 0,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "Blocks.TALLGRASS"
+      },
+      {
+        "value": "Blocks.TALLGRASS#0"
+      },
+      {
+        "value": "Blocks.TALLGRASS#1"
+      },
+      {
+        "value": "Blocks.TALLGRASS#2"
+      },
+      {
+        "value": "Blocks.DOUBLE_PLANT#2"
+      },
+      {
+        "value": "Blocks.SEAGRASS"
+      },
+      {
+        "value": "Blocks.TALL_SEAGRASS"
+      }
+    ],
+    "restrictionBiomes": [],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

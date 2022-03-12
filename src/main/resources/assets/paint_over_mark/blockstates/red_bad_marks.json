@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "paint_over_mark:block/red_bad_marks"
+    },
+    "facing=east": {
+      "model": "paint_over_mark:block/red_bad_marks",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "paint_over_mark:block/red_bad_marks",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "paint_over_mark:block/red_bad_marks",
+      "y": 270
+    }
+  }
+}

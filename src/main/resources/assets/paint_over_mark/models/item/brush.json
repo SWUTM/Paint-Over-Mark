@@ -1,0 +1,7 @@
+{
+  "parent": "paint_over_mark:custom/brush",
+  "textures": {
+    "0": "paint_over_mark:blocks/brush",
+    "particle": "paint_over_mark:items/brush"
+  }
+}

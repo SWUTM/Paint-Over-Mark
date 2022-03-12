@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "paint_over_mark:block/paint_over_21"
+    },
+    "facing=east": {
+      "model": "paint_over_mark:block/paint_over_21",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "paint_over_mark:block/paint_over_21",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "paint_over_mark:block/paint_over_21",
+      "y": 270
+    }
+  }
+}
